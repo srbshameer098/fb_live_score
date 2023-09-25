@@ -26,11 +26,10 @@ class _BottomNavState extends State<BottomNav> {
         });
       },
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home_outlined,color: Colors.grey,), label: "Shop"
-              ,backgroundColor: Color(0xff181823)),
-          BottomNavigationBarItem(icon: Icon(Icons.explore_outlined,color: Colors.grey,), label: "Shop",backgroundColor: Color(0xff181823), ),
-          BottomNavigationBarItem(icon:  Icon(Icons.analytics_outlined,color: Colors.grey), label: "Me",backgroundColor: Color(0xff181823)),
-          BottomNavigationBarItem(icon: Icon(Icons.person_outline_rounded,color: Colors.grey,), label: "Shop",backgroundColor: Color(0xff181823)),
+          BottomNavigationBarItem(icon: Icon(Icons.home_outlined,color: Colors.grey,), label: "Home",backgroundColor: Color(0xff181823)),
+          BottomNavigationBarItem(icon: Icon(Icons.explore_outlined,color: Colors.grey,), label: "Explore",backgroundColor: Color(0xff181823), ),
+          BottomNavigationBarItem(icon:  Icon(Icons.analytics_outlined,color: Colors.grey), label: "Standings",backgroundColor: Color(0xff181823)),
+          BottomNavigationBarItem(icon: Icon(Icons.person_outline_rounded,color: Colors.grey,), label: "My profile",backgroundColor: Color(0xff181823)),
 
         ],
       ),body: screens[currentIndex],

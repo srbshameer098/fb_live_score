@@ -10,6 +10,14 @@ class My_profile extends StatefulWidget {
 class _My_profileState extends State<My_profile> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold();
+    return  Scaffold(
+      backgroundColor:  Color(0xff0f0f1c),
+
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }

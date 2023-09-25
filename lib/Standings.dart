@@ -10,6 +10,8 @@ class Standings extends StatefulWidget {
 class _StandingsState extends State<Standings> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold();
+    return  Scaffold(
+      backgroundColor:  Color(0xff0f0f1c),
+    );
   }
 }

@@ -10,6 +10,9 @@ class Explore extends StatefulWidget {
 class _ExploreState extends State<Explore> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold();
+    return  Scaffold(
+      backgroundColor:  Color(0xff0f0f1c),
+
+    );
   }
 }

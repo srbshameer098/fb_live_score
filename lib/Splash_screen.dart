@@ -1,3 +1,4 @@
+import 'package:fb_live_score/bottomnav.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -162,13 +163,19 @@ SizedBox(height: 14.h,),
               ),),
             SizedBox(height: 26.h,),
             Center(
-              child: Text(
-                  "Skip",
-                  style: TextStyle(
-                    fontSize: 18.sp,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w400,
-                  )
+              child: GestureDetector(
+                onTap: (){
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (_)=>BottomNav()));
+                },
+                child: Text(
+                    "Skip",
+                    style: TextStyle(
+                      fontSize: 18.sp,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w400,
+                    )
+                ),
               ),
             )
 

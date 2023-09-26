@@ -44,7 +44,7 @@ SizedBox(height: 14.h,),
 
                 Column(
                   children: [
-                    CircleAvatar(radius: 45.r,backgroundColor: Color(0xff222232),child: Image.asset("assets/soccer.png",width: 42.w,height: 42.h,),),
+                    CircleAvatar(radius: 45.r,backgroundColor: Color(0xffef9774),child: Image.asset("assets/soccer.png",width: 42.w,height: 42.h,),),
                     Text(
                         "Soccer",
                         style: TextStyle(

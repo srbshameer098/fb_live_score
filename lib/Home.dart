@@ -125,85 +125,220 @@ class _HomeState extends State<Home> {
             SizedBox(
               height: 32.h,
             ),
+            SizedBox(
+              height: 120.h,
+              child: ListView(scrollDirection: Axis.horizontal,
+               children: [
+
+                 Container(
+                     width: 108,
+                     height: 115,
+                     decoration: BoxDecoration(
+                         borderRadius: BorderRadius.circular(16),
+                         color: Color(0xffef9774)),
+                   child: Column(
+                     children: [
+                       Padding(
+                         padding:  EdgeInsets.only(left: 34.w,right: 34.w,top: 20.h,bottom: 12.h),
+                         child: Image.asset("assets/soccer.png",
+                           width: 40.w,
+                           height: 40.h,),
+                       ),
+
+                       Text(
+                           "Soccer",
+                           style: TextStyle(
+                             color: Colors.white,
+                             fontSize: 18.sp,
+                             fontWeight: FontWeight.w600,
+                           )
+                       )
+                     ],
+                   ),
+
+                 ),
+                 SizedBox(width: 14.w,),
+                 Container(
+                     width: 108,
+                     height: 115,
+                     decoration: BoxDecoration(
+                         borderRadius: BorderRadius.circular(16),
+                         color: Color(0xff222232)),
+                   child: Column(
+                     children: [
+                       Padding(
+                         padding:  EdgeInsets.only(left: 34.w,right: 34.w,top: 20.h,bottom: 12.h),
+                         child: Image.asset("assets/basketball.png",
+                           width: 40.w,
+                           height: 40.h,),
+                       ),
+
+                       Text(
+                           "Basketball",
+                           style: TextStyle(
+                             color: Colors.white,
+                             fontSize: 18.sp,
+                             fontWeight: FontWeight.w600,
+                           )
+                       )
+                     ],
+                   ),
+                 ),
+
+
+                 SizedBox(width: 14.w,),
+                 Container(
+                     width: 108,
+                     height: 115,
+                     decoration: BoxDecoration(
+                         borderRadius: BorderRadius.circular(16),
+                         color: Color(0xff222232)),
+                   child: Column(
+                     children: [
+                       Padding(
+                         padding:  EdgeInsets.only(left: 34.w,right: 34.w,top: 20.h,bottom: 12.h),
+                         child: Image.asset("assets/football.png",
+                           width: 40.w,
+                           height: 40.h,),
+                       ),
+
+                       Text(
+                           "Football",
+                           style: TextStyle(
+                             color: Colors.white,
+                             fontSize: 18.sp,
+                             fontWeight: FontWeight.w600,
+                           )
+                       )
+                     ],
+                   ),
+                 ),
+                 SizedBox(width: 14.w,),
+
+                 Container(
+                   width: 108,
+                   height: 115,
+                   decoration: BoxDecoration(
+                       borderRadius: BorderRadius.circular(16),
+                       color: Color(0xff222232)),
+                   child: Column(
+                     children: [
+                       Padding(
+                         padding:  EdgeInsets.only(left: 34.w,right: 34.w,top: 20.h,bottom: 12.h),
+                         child: Image.asset("assets/baseball.png",
+                           width: 40.w,
+                           height: 40.h,),
+                       ),
+
+                       Text(
+                           "Baseball",
+                           style: TextStyle(
+                             color: Colors.white,
+                             fontSize: 18.sp,
+                             fontWeight: FontWeight.w600,
+                           )
+                       )
+                     ],
+                   ),
+
+                 ),
+                 SizedBox(width: 14.w,),
+
+                 Container(
+                   width: 108,
+                   height: 115,
+                   decoration: BoxDecoration(
+                       borderRadius: BorderRadius.circular(16),
+                       color: Color(0xff222232)),
+                   child: Column(
+                     children: [
+                       Padding(
+                         padding:  EdgeInsets.only(left: 34.w,right: 34.w,top: 20.h,bottom: 12.h),
+                         child: Image.asset("assets/tennis.png",
+                           width: 40.w,
+                           height: 40.h,),
+                       ),
+
+                       Text(
+                           "Tennis",
+                           style: TextStyle(
+                             color: Colors.white,
+                             fontSize: 18.sp,
+                             fontWeight: FontWeight.w600,
+                           )
+                       )
+                     ],
+                   ),
+
+                 ),
+                 SizedBox(width: 14.w,),
+
+                 Container(
+                   width: 108,
+                   height: 115,
+                   decoration: BoxDecoration(
+                       borderRadius: BorderRadius.circular(16),
+                       color: Color(0xff222232)),
+                   child: Column(
+                     children: [
+                       Padding(
+                         padding:  EdgeInsets.only(left: 34.w,right: 34.w,top: 20.h,bottom: 12.h),
+                         child: Image.asset("assets/volly.png",
+                           width: 40.w,
+                           height: 40.h,),
+                       ),
+
+                       Text(
+                           "Volleyball",
+                           style: TextStyle(
+                             color: Colors.white,
+                             fontSize: 18.sp,
+                             fontWeight: FontWeight.w600,
+                           )
+                       )
+                     ],
+                   ),
+
+                 ),
+
+
+
+               ],
+
+              ),
+            ),
+
             Row(
-             children: [
+              children: [
 
-               Container(
-                   width: 108,
-                   height: 115,
-                   decoration: BoxDecoration(
-                       borderRadius: BorderRadius.circular(16),
-                       color: Color(0xff222232)),
-                 child: Column(
-                   children: [
-                     Image.asset("assets/soccer.png",
-                       width: 40.w,
-                       height: 40.h,),
+                Image.asset("assets/spain.png",
+                  width: 24.w,
+                  height: 24.h,),
+                Column(
+                  children: [
+                    Text(
+                        "La Liga",
+                        style: TextStyle(
+                          fontSize: 16.sp,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600,
+                        )
+                    ),
 
-                     Text(
-                         "Soccer",
-                         style: TextStyle(
-                           fontSize: 18.sp,
-                           fontWeight: FontWeight.w600,
-                         )
-                     )
-                   ],
-                 ),
-
-               ),
-               SizedBox(width: 14.w,),
-               Container(
-                   width: 108,
-                   height: 115,
-                   decoration: BoxDecoration(
-                       borderRadius: BorderRadius.circular(16),
-                       color: Color(0xff222232)),
-                 child: Column(
-                   children: [
-                     Image.asset("assets/basketball.png",
-                       width: 40.w,
-                       height: 40.h,),
-
-                     Text(
-                         "Basketball",
-                         style: TextStyle(
-                           fontSize: 18.sp,
-                           fontWeight: FontWeight.w600,
-                         )
-                     )
-                   ],
-                 ),
-               ),
-
-
-               SizedBox(width: 14.w,),
-               Container(
-                   width: 108,
-                   height: 115,
-                   decoration: BoxDecoration(
-                       borderRadius: BorderRadius.circular(16),
-                       color: Color(0xff222232)),
-                 child: Column(
-                   children: [
-                     Image.asset("assets/football.png",
-                       width: 40.w,
-                       height: 40.h,),
-
-                     Text(
-                         "Football",
-                         style: TextStyle(
-                           fontSize: 18.sp,
-                           fontWeight: FontWeight.w600,
-                         )
-                     )
-                   ],
-                 ),
-               ),
-
-
-             ],
-
+                    Text(
+                        "Spain",
+                        style: TextStyle(
+                          fontSize: 12.sp,
+                          color: Colors.grey,
+                          fontWeight: FontWeight.w400,
+                        )
+                    )
+                  ],
+                )
+              ],
             )
+
+
 
           ],
         ),

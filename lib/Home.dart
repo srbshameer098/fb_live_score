@@ -2,6 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'Match_Detail.dart';
+
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -397,9 +399,9 @@ class _HomeState extends State<Home> {
                     child: Row(
                       children: [
                         SizedBox(width: 14.w,),
-                        CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/barcelona.png",width: 21.684894561767578.w, height: 22.h,),),
+                        CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/astonvilla.png",width: 21.684894561767578.w, height: 22.h,),),
                         SizedBox(width: 5.w,),
-                        CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/realmadrid.png",width: 21.684894561767578.w, height: 22.h,),),
+                        CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/idezia.png",width: 21.684894561767578.w, height: 22.h,),),
                         SizedBox(width: 14.w,),
 
                         Row(
@@ -409,7 +411,7 @@ class _HomeState extends State<Home> {
                               children: [
                                 SizedBox(height: 16.h,),
                                 Text(
-                                    "Barcelona ",
+                                    "Aston Villa ",
                                     style: TextStyle(
                                       fontSize: 12.sp,
                                       color: Colors.white,
@@ -450,14 +452,14 @@ class _HomeState extends State<Home> {
                               children: [
                                 SizedBox(height: 16.h,),
                                 Text(
-                                    "  Real Madrid",
+                                    "Liverpool",
                                     style: TextStyle(
                                       fontSize: 12.sp,
                                       color: Colors.white,
                                       fontWeight: FontWeight.w600,
                                     )
                                 ), Text(
-                                    "0",
+                                    "3",
                                     style: TextStyle(
                                       fontSize: 14.sp,
                                       color: Colors.white,
@@ -500,6 +502,174 @@ class _HomeState extends State<Home> {
 
                       ),
                     )       ]),
+
+
+              SizedBox(
+                height: 30.h,
+              ),
+              GestureDetector(
+                onTap: (){
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (_)=>Match_Detail()));
+                },
+                child: Row(
+                  children: [
+                    Image.asset(
+                      "assets/england.png",
+                      width: 24.w,
+                      height: 24.h,
+                    ),
+                    SizedBox(
+                      width: 12.w,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("UEFA Champions League",
+                            style: TextStyle(
+                              fontSize: 16.sp,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                            )),
+                        Text("England",
+                            style: TextStyle(
+                              fontSize: 12.sp,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.w400,
+                            ))
+                      ],
+                    ),
+                    SizedBox(
+                      width: 80.w,
+                    ),
+                    Icon(
+                      Icons.arrow_forward_ios_outlined,
+                      color: Colors.white,
+                      size: 18.sp,
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 14.h,
+              ),
+              Stack(
+                  children:[ Container(
+                    width: 319,
+                    height: 68,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(16),
+                        color: Color(0xff2a2a3c)),
+                    child: Row(
+                      children: [
+                        SizedBox(width: 14.w,),
+                        CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/arsenal.png",width: 21.684894561767578.w, height: 22.h,),),
+                        SizedBox(width: 5.w,),
+                        CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/astonvilla.png",width: 21.684894561767578.w, height: 22.h,),),
+                        SizedBox(width: 14.w,),
+
+                        Row(
+                          children: [
+
+                            Column(
+                              children: [
+                                SizedBox(height: 16.h,),
+                                Text(
+                                    " Arsenal",
+                                    style: TextStyle(
+                                      fontSize: 12.sp,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w600,
+                                    )
+                                ), Text(
+                                    "2",
+                                    style: TextStyle(
+                                      fontSize: 12.sp,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w600,
+                                    )
+                                ),  ],
+                            ),
+
+                            SizedBox(width: 1.w,),
+                            Column(
+                              children: [
+                                SizedBox(height: 16.h,),
+                                Text(
+                                    " vs  ",
+                                    style: TextStyle(
+                                      fontSize: 12.sp,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w600,
+                                    )
+                                ), Text(
+                                    "-",
+                                    style: TextStyle(
+                                      fontSize: 12.sp,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w600,
+                                    )
+                                ),  ],
+                            ),
+                            SizedBox(width: 1.w,),
+                            Column(
+                              children: [
+                                SizedBox(height: 16.h,),
+                                Text(
+                                    "Aston Villa",
+                                    style: TextStyle(
+                                      fontSize: 12.sp,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w600,
+                                    )
+                                ), Text(
+                                    "3",
+                                    style: TextStyle(
+                                      fontSize: 14.sp,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w600,
+                                    )
+                                ),
+                              ],
+                            ),
+                          ],
+                        )
+
+                      ],
+                    ),
+                  ),
+
+                    Positioned(
+
+                      left: 278.w,
+                      child: Container(
+                        width: 47,
+                        height: 68,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(
+                                topRight: Radius.circular(16.r),
+                                bottomRight: Radius.circular(16.r)
+                            ),
+                            color: Color(0xff222232)),
+
+                        child: Padding(
+                          padding:  EdgeInsets.only(left: 16.w,top: 25.h),
+                          child: Text(
+                              "HT",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 14.sp,
+                                fontWeight: FontWeight.w600,
+                              )
+                          ),
+                        ),
+
+                      ),
+                    )       ]),
+
+
+
+
             ],
           ),
         ),

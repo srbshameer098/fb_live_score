@@ -17,7 +17,8 @@ class _Match_DetailState extends State<Match_Detail> {
         backgroundColor: Color(0xff0f0f1c),
         appBar: AppBar(
           backgroundColor: Color(0xff0f0f1c),
-          leading: Icon(Icons.arrow_back_ios_outlined,color: Colors.white,size: 20.sp,),
+          leading: Icon(Icons.arrow_back_ios_outlined,
+            color: Colors.white,size: 20.sp,),
           title: Text("   UEFA Champions League",
               style: TextStyle(
                 color: Colors.white,
@@ -26,7 +27,7 @@ class _Match_DetailState extends State<Match_Detail> {
               )),
         ),
         body: Padding(
-          padding:  EdgeInsets.only(left: 28.w,right: 28.w,top: 25.h),
+          padding:  EdgeInsets.only(left: 28.w,right: 20.w,top: 25.h),
           child: Column(
             children: [
 
@@ -207,21 +208,21 @@ SizedBox(width: 70.w,),
 
 
                             Padding(
-                              padding:  EdgeInsets.only(left: 39.w,top: 24.h),
+                              padding:  EdgeInsets.only(left: 34.w,top: 24.h),
                               child: Row(
                                 children: [
                                   Text(
-                                      "8",
+                                      "22",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 20.sp,
                                         fontWeight: FontWeight.w400,
                                       )
                                   ),
-                                  SizedBox(width: 70.w,),
+                                  SizedBox(width: 72.w,),
 
                                   Text(
-                                      "Shooting",
+                                      "Attacks",
                                       style: TextStyle(
                                         fontSize: 20.sp,
                                         color: Colors.white,
@@ -229,11 +230,99 @@ SizedBox(width: 70.w,),
                                       )
                                   ),
 
-                                  SizedBox(width: 65.w,),
+                                  SizedBox(width: 71.w,),
 
 
                                   Text(
-                                      "12",
+                                      "29",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 20.sp,
+                                        fontWeight: FontWeight.w400,
+                                      )
+                                  ),
+
+
+
+                                ],
+                              ),
+                            ),
+
+                            Padding(
+                              padding:  EdgeInsets.only(left: 34.w,top: 24.h),
+                              child: Row(
+                                children: [
+                                  Text(
+                                      "42",
+                                      style: TextStyle(
+                                        fontSize: 20.sp,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w400,
+                                      )
+                                  ),
+                                  SizedBox(width: 61.w,),
+
+                                  Text(
+                                      "Possesion",
+                                      style: TextStyle(
+                                        fontSize: 20.sp,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                      )
+                                  ),
+
+                                  SizedBox(width: 58.w,),
+
+
+                                  Text(
+                                      "58",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 20.sp,
+                                        fontWeight: FontWeight.w400,
+                                      )
+                                  ),
+
+
+
+                                ],
+                              ),
+                            ),
+
+                            Padding(
+                              padding:  EdgeInsets.only(left: 39.w,top: 24.h),
+                              child: Row(
+                                children: [
+                                  Text(
+                                      "3",
+                                      style: TextStyle(
+                                        fontSize: 20.sp,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w400,
+                                      )
+                                  ),
+                                  SizedBox(width: 76.w,),
+
+                                  Image.asset("assets/yellowcard.png",
+                                    width: 11.w,
+                                    height: 16.h,
+                                  ),
+                                  SizedBox(width: 6.w,),
+
+                                  Text(
+                                      "Cards",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 20.sp,
+                                        fontWeight: FontWeight.w600,
+                                      )
+                                  ),
+
+                                  SizedBox(width: 75.w,),
+
+
+                                  Text(
+                                      "5",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 20.sp,
@@ -259,10 +348,10 @@ SizedBox(width: 70.w,),
                                         fontWeight: FontWeight.w400,
                                       )
                                   ),
-                                  SizedBox(width: 70.w,),
+                                  SizedBox(width: 75.w,),
 
                                   Text(
-                                      "Shooting",
+                                      "Corners",
                                       style: TextStyle(
                                         fontSize: 20.sp,
                                         color: Colors.white,
@@ -270,93 +359,11 @@ SizedBox(width: 70.w,),
                                       )
                                   ),
 
-                                  SizedBox(width: 65.w,),
+                                  SizedBox(width: 75.w,),
 
 
                                   Text(
-                                      "12",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 20.sp,
-                                        fontWeight: FontWeight.w400,
-                                      )
-                                  ),
-
-
-
-                                ],
-                              ),
-                            ),
-
-                            Padding(
-                              padding:  EdgeInsets.only(left: 39.w,top: 24.h),
-                              child: Row(
-                                children: [
-                                  Text(
-                                      "8",
-                                      style: TextStyle(
-                                        fontSize: 20.sp,
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.w400,
-                                      )
-                                  ),
-                                  SizedBox(width: 70.w,),
-
-                                  Text(
-                                      "Shooting",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 20.sp,
-                                        fontWeight: FontWeight.w600,
-                                      )
-                                  ),
-
-                                  SizedBox(width: 65.w,),
-
-
-                                  Text(
-                                      "12",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 20.sp,
-                                        fontWeight: FontWeight.w400,
-                                      )
-                                  ),
-
-
-
-                                ],
-                              ),
-                            ),
-
-                            Padding(
-                              padding:  EdgeInsets.only(left: 39.w,top: 24.h),
-                              child: Row(
-                                children: [
-                                  Text(
-                                      "8",
-                                      style: TextStyle(
-                                        fontSize: 20.sp,
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.w400,
-                                      )
-                                  ),
-                                  SizedBox(width: 70.w,),
-
-                                  Text(
-                                      "Shooting",
-                                      style: TextStyle(
-                                        fontSize: 20.sp,
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.w600,
-                                      )
-                                  ),
-
-                                  SizedBox(width: 65.w,),
-
-
-                                  Text(
-                                      "12",
+                                      "7",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 20.sp,
@@ -415,9 +422,9 @@ SizedBox(width: 70.w,),
                                   child: Row(
                                     children: [
                                       SizedBox(width: 14.w,),
-                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/arsenal.png",width: 21.684894561767578.w, height: 22.h,),),
+                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/manchester.png",width: 21.684894561767578.w, height: 22.h,),),
                                       SizedBox(width: 5.w,),
-                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/astonvilla.png",width: 21.684894561767578.w, height: 22.h,),),
+                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/Chelsea.png",width: 21.684894561767578.w, height: 22.h,),),
                                       SizedBox(width: 14.w,),
 
                                       Row(
@@ -427,7 +434,7 @@ SizedBox(width: 70.w,),
                                             children: [
                                               SizedBox(height: 16.h,),
                                               Text(
-                                                  " Arsenal",
+                                                  "Man United",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
@@ -448,14 +455,14 @@ SizedBox(width: 70.w,),
                                             children: [
                                               SizedBox(height: 16.h,),
                                               Text(
-                                                  " vs  ",
+                                                  " vs ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.w600,
                                                   )
                                               ), Text(
-                                                  "-",
+                                                  " - ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
@@ -468,14 +475,14 @@ SizedBox(width: 70.w,),
                                             children: [
                                               SizedBox(height: 16.h,),
                                               Text(
-                                                  "Aston Villa",
+                                                  "Chelsea FC",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.w600,
                                                   )
                                               ), Text(
-                                                  "3",
+                                                  " 3 ",
                                                   style: TextStyle(
                                                     fontSize: 14.sp,
                                                     color: Colors.white,
@@ -507,7 +514,7 @@ SizedBox(width: 70.w,),
                                       child: Padding(
                                         padding:  EdgeInsets.only(left: 16.w,top: 25.h),
                                         child: Text(
-                                            "HT",
+                                            "FT",
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 14.sp,
@@ -533,9 +540,9 @@ SizedBox(width: 70.w,),
                                   child: Row(
                                     children: [
                                       SizedBox(width: 14.w,),
-                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/arsenal.png",width: 21.684894561767578.w, height: 22.h,),),
+                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/tottenham.png",width: 21.684894561767578.w, height: 22.h,),),
                                       SizedBox(width: 5.w,),
-                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/astonvilla.png",width: 21.684894561767578.w, height: 22.h,),),
+                                      CircleAvatar(radius: 16.r,backgroundColor: Color(0xfd000000),child: Image.asset("assets/Southamton.png",width: 21.684894561767578.w, height: 22.h,),),
                                       SizedBox(width: 14.w,),
 
                                       Row(
@@ -545,14 +552,14 @@ SizedBox(width: 70.w,),
                                             children: [
                                               SizedBox(height: 16.h,),
                                               Text(
-                                                  " Arsenal",
+                                                  " Tottenham ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.w600,
                                                   )
                                               ), Text(
-                                                  "2",
+                                                  " 1 ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
@@ -566,14 +573,14 @@ SizedBox(width: 70.w,),
                                             children: [
                                               SizedBox(height: 16.h,),
                                               Text(
-                                                  " vs  ",
+                                                  " vs ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.w600,
                                                   )
                                               ), Text(
-                                                  "-",
+                                                  " - ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
@@ -586,14 +593,14 @@ SizedBox(width: 70.w,),
                                             children: [
                                               SizedBox(height: 16.h,),
                                               Text(
-                                                  "Aston Villa",
+                                                  " Southamton ",
                                                   style: TextStyle(
                                                     fontSize: 12.sp,
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.w600,
                                                   )
                                               ), Text(
-                                                  "3",
+                                                  " 0 ",
                                                   style: TextStyle(
                                                     fontSize: 14.sp,
                                                     color: Colors.white,
@@ -625,7 +632,7 @@ SizedBox(width: 70.w,),
                                       child: Padding(
                                         padding:  EdgeInsets.only(left: 16.w,top: 25.h),
                                         child: Text(
-                                            "HT",
+                                            "FT",
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 14.sp,
@@ -647,7 +654,93 @@ SizedBox(width: 70.w,),
                         height: 427.h,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(12.r),
-                            color: Color(0xff06492c)),
+                            color:Color(0xff0f0f1c),),
+
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding:  EdgeInsets.only(left: 108.w,top: 24.h),
+                              child: Row(
+                                children: [
+                                  Text(
+                                      "Formation",
+                                      style: TextStyle(
+                                        fontSize: 20.sp,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                      )
+                                  ),
+                                  SizedBox(width: 14.w,),
+
+                                  Text(
+                                      "(4-2-3-1)",
+                                      style: TextStyle(
+                                        fontSize: 14.sp,
+                                        color: Colors.grey,
+                                        fontWeight: FontWeight.w400,
+                                      )
+                                  )
+
+                                ],
+                              ),
+                            ),
+
+
+
+                            Row(
+                              children: [
+
+                                Container(
+                                  width: 75.w,
+                                    height: 38.h,
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(12.r),
+                                      color: Color(0xecec9073),),
+                                  child: Text(
+                                      "Arsenal",
+                                      style: TextStyle(
+                                        fontSize: 14.sp,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                      )
+                                  ),
+                                    ),
+
+                                Container(
+                                  width: 75.w,
+                                  height: 38.h,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(12.r),
+                                    color: Colors.transparent,),
+                                  child: Text(
+                                      "Aston Villa",
+                                      style: TextStyle(
+                                        fontSize: 14.sp,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                      )
+                                  ),
+                                ),
+
+                              ],
+                            )
+                            // TabBar(
+                            //   tabs: [
+                            //     Tab(icon: Icon(Icons.flight)),
+                            //     Tab(icon: Icon(Icons.directions_transit)),
+
+                            //   ],
+                            // ),
+                            //
+                            //
+                            // TabBarView(
+                            //   children: [
+                            //     Icon(Icons.flight, size: 350),
+                            //     Icon(Icons.directions_transit, size: 350),
+                            //   ],
+                            // ),
+                          ],
+                        ),
                       ),
                       Container(
                         width: 320.w,

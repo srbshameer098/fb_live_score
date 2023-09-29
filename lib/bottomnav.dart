@@ -1,4 +1,5 @@
 import 'package:fb_live_score/Explore.dart';
+import 'package:fb_live_score/Match_Detail.dart';
 import 'package:fb_live_score/My_profile.dart';
 import 'package:fb_live_score/Standings.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class BottomNav extends StatefulWidget {
   @override
   State<BottomNav> createState() => _BottomNavState();
 }
-final screens=[ Home(),Explore(),Standings(),My_profile()];
+final screens=[ Home(),Explore(),Standings(),My_profile(),Match_Detail()];
 int currentIndex=0;
 class _BottomNavState extends State<BottomNav> {
   @override

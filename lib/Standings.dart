@@ -166,7 +166,7 @@ class _StandingsState extends State<Standings> {
                 SizedBox(height: 18.h,),
                 Container(
                     width: 318,
-                    height: 215,
+                    height: 220,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(19),
                         color: Color(0xff222232)),
@@ -175,12 +175,13 @@ class _StandingsState extends State<Standings> {
                     padding:  EdgeInsets.only(left: 18.w,top: 16.h),
                     child: Column(
                       children: [
+                       // -------------- row 1  ------------------------
                         Row(
                           children: [
                             Text(
                                 "Team",
                                 style: TextStyle(
-                                  fontSize: 12.sp,
+                                  fontSize: 14.sp,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
                                 )
@@ -242,22 +243,31 @@ SizedBox(width:115.w ,),
 
                           ],
                         ),
+
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 2  ------------------------
+SizedBox(height: 9.h,),
+
                         Row(
                           children: [
                             Image.asset("assets/Atletico.png",
-                              width: 11.4375.w,
+                              width: 13.w,
                               height: 16.h,
                             ),
                             SizedBox(width: 7.w,),
                             Text(
                                 "Atlético Madrid",
                                 style: TextStyle(
-                                  fontSize: 12.sp,
+                                  fontSize: 13.sp,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
                                 )
                             ),
-                            SizedBox(width:43.w ,),
+                            SizedBox(width:40.w ,),
                             Text(
                                 "2",
                                 style: TextStyle(
@@ -314,19 +324,26 @@ SizedBox(width:115.w ,),
 
                           ],
                         ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 3  ------------------------
+                        SizedBox(height: 8.h,),
 
                         Row(
                           children: [
 
                             Image.asset("assets/realmadrid.png",
-                              width: 11.4375.w,
+                              width: 13.w,
                               height: 16.h,
                             ),
                             SizedBox(width: 7.w,),
                             Text(
                                 "Real Madrid",
                                 style: TextStyle(
-                                  fontSize: 12.sp,
+                                  fontSize: 13.sp,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
                                 )
@@ -388,19 +405,26 @@ SizedBox(width:115.w ,),
 
                           ],
                         ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 4  ------------------------
+                        SizedBox(height: 8.h,),
 
                         Row(
                           children: [
 
                             Image.asset("assets/barcelona.png",
-                              width: 11.4375.w,
+                              width: 13.w,
                               height: 16.h,
                             ),
                             SizedBox(width: 7.w,),
                             Text(
                                 "Barcelona",
                                 style: TextStyle(
-                                  fontSize: 12.sp,
+                                  fontSize: 13.sp,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
                                 )
@@ -462,24 +486,31 @@ SizedBox(width:115.w ,),
 
                           ],
                         ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 5  ------------------------
+                        SizedBox(height: 8.h,),
 
                         Row(
                           children: [
 
                             Image.asset("assets/Villareal.png",
-                              width: 11.4375.w,
+                              width: 13.w,
                               height: 16.h,
                             ),
                             SizedBox(width: 7.w,),
                             Text(
                                 "Villareal",
                                 style: TextStyle(
-                                  fontSize: 12.sp,
+                                  fontSize: 13.sp,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
                                 )
                             ),
-                            SizedBox(width:81.w ,),
+                            SizedBox(width:83.w ,),
                             Text(
                                 "8",
                                 style: TextStyle(
@@ -536,6 +567,11 @@ SizedBox(width:115.w ,),
 
                           ],
                         ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
                       ],
                     ),
                   ),
@@ -583,12 +619,421 @@ SizedBox(height: 20.h,),
 
 
                 SizedBox(height: 18.h,),
+
+                // -------------- Container 2  ------------------------
+
                 Container(
                     width: 318,
-                    height: 215,
+                    height: 220,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(19),
-                        color: Color(0xff222232))
+                        color: Color(0xff222232)),
+
+                  child: Padding(
+                    padding:  EdgeInsets.only(left: 18.w,top: 16.h),
+                    child: Column(
+                      children: [
+                        // -------------- row 1  ------------------------
+                        Row(
+                          children: [
+                            Text(
+                                "Team",
+                                style: TextStyle(
+                                  fontSize: 14.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:115.w ,),
+                            Text(
+                                "D",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:20.w ,),
+
+                            Text(
+                                "L",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:20.w ,),
+
+                            Text(
+                                "Ga",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:20.w ,),
+
+                            Text(
+                                "Gd",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                            SizedBox(width:20.w ,),
+
+                            Text(
+                                "Pts",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                          ],
+                        ),
+
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 2  ------------------------
+                        SizedBox(height: 9.h,),
+
+                        Row(
+                          children: [
+                            Image.asset("assets/idezia.png",
+                              width: 13.w,
+                              height: 16.h,
+                            ),
+                            SizedBox(width: 7.w,),
+                            Text(
+                                "Liverpool",
+                                style: TextStyle(
+                                  fontSize: 13.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:75.w ,),
+                            Text(
+                                "6",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "2",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "21",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:26.w ,),
+
+                            Text(
+                                "16",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                            SizedBox(width:23.w ,),
+
+                            Text(
+                                "33",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                          ],
+                        ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 3  ------------------------
+                        SizedBox(height: 8.h,),
+
+                        Row(
+                          children: [
+
+                            Image.asset("assets/manchester.png",
+                              width: 13.w,
+                              height: 16.h,
+                            ),
+                            SizedBox(width: 7.w,),
+                            Text(
+                                "Man United",
+                                style: TextStyle(
+                                  fontSize: 13.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:62.w ,),
+                            Text(
+                                "3",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "3",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:22.w ,),
+
+                            Text(
+                                "24",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:29.w ,),
+
+                            Text(
+                                "9",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                            SizedBox(width:26.w ,),
+
+                            Text(
+                                "33",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                          ],
+                        ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 4  ------------------------
+                        SizedBox(height: 8.h,),
+
+                        Row(
+                          children: [
+
+                              Image.asset("assets/LeicesterCity.png",
+                              width: 13.w,
+                              height: 16.h,
+                            ),
+                            SizedBox(width: 7.w,),
+                            Text(
+                                "Leicester City",
+                                style: TextStyle(
+                                  fontSize: 13.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:50.w ,),
+                            Text(
+                                "2",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "5",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "21",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:23.w ,),
+
+                            Text(
+                                "10",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                            SizedBox(width:23.w ,),
+
+                            Text(
+                                "32",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                          ],
+                        ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                        // -------------- row 5  ------------------------
+                        SizedBox(height: 8.h,),
+
+                        Row(
+                          children: [
+
+                            Image.asset("assets/Villareal.png",
+                              width: 13.w,
+                              height: 16.h,
+                            ),
+                            SizedBox(width: 7.w,),
+                            Text(
+                                "Villareal",
+                                style: TextStyle(
+                                  fontSize: 13.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:83.w ,),
+                            Text(
+                                "8",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "2",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:21.w ,),
+
+                            Text(
+                                "10",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+                            SizedBox(width:23.w ,),
+
+                            Text(
+                                "16",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                            SizedBox(width:23.w ,),
+
+                            Text(
+                                "32",
+                                style: TextStyle(
+                                  fontSize: 12.sp,
+                                  color: Colors.white,
+
+                                  fontWeight: FontWeight.w400,
+                                )
+                            ),
+
+                          ],
+                        ),
+                        Padding(
+                          padding:  EdgeInsets.only(left: 150.w,right: 1.w),
+                          child: SizedBox(width: 166.w,
+                              child: Divider(thickness: 0.9.sp,color: Color(0xff0f0f1c),)),
+                        ),
+                      ],
+                    ),
+                  ),
+
                 ),
 
                 SizedBox(height: 18.h,),

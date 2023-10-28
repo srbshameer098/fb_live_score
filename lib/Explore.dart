@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'ArticleDetails.dart';
+
 class Explore extends StatefulWidget {
   const Explore({Key? key}) : super(key: key);
 
@@ -345,11 +347,16 @@ SizedBox(height: 32.h,),
                             ),
                         child: Row(
                           children: [
-                            Image.asset(
+                            GestureDetector(
+                            onTap: (){
+                  Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (_)=>ArticleDetails()));
+                  },
+                        child:    Image.asset(
                              "assets/img7.png",
                               width: 241.w,
                               height: 169.h,
-                            ),
+                            ),),
                             SizedBox(
                               width: 10.w,),
                             Stack(

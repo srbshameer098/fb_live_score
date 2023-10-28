@@ -1,3 +1,4 @@
+import 'package:fb_live_score/StandingDetails.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class Standings extends StatefulWidget {
@@ -156,10 +157,17 @@ class _StandingsState extends State<Standings> {
                     SizedBox(
                       width: 210.w,
                     ),
-                    Icon(
+
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.of(context)
+                            .push(MaterialPageRoute(builder: (_)=>StandingDetails()));
+                      },
+                child:    Icon(
                       Icons.arrow_forward_ios_outlined,
                       color: Colors.white,
                       size: 18.sp,
+                    )
                     )
                   ],
                 ),

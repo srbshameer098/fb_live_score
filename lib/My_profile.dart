@@ -138,7 +138,8 @@ class _My_profileState extends State<My_profile> {
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w600,
                             )
-                        )
+                        ),
+
                       ],
                     ),
 
@@ -148,19 +149,30 @@ class _My_profileState extends State<My_profile> {
 
                   ],
                 ),
+
+              SizedBox(height: 10.h,),
+
+              Padding(
+                padding:  EdgeInsets.only(left: 35.w),
+                child: SizedBox(width: 240.w,
+                    child: Divider(thickness: 0.sp,color: Colors.grey,)),
+              ),
+
               SizedBox(height: 15.h,),
+
+
 
               Row(
                 children: [
 
                   CircleAvatar(radius: 20.r,backgroundColor: Colors.grey.shade900,
-                    child:Icon(Icons.perm_identity_rounded,color: Colors.white,) ,),
+                    child:Icon(Icons.email_outlined,color: Colors.white,) ,),
                   SizedBox(width: 16.w,),
 
                   Column(crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                          "Name",
+                          "Email",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16.sp,
@@ -169,7 +181,7 @@ class _My_profileState extends State<My_profile> {
                       ),
 
                       Text(
-                          "Brian Imanuel",
+                          "brians213@gmail.com",
                           style: TextStyle(
                             color: Colors.grey,
                             fontSize: 14.sp,
@@ -179,25 +191,33 @@ class _My_profileState extends State<My_profile> {
                     ],
                   ),
 
-                  SizedBox(width: 156.w,),
+                  SizedBox(width: 100.w,),
 
                   Icon(Icons.arrow_forward_ios,color: Colors.white,size: 16.sp,)
 
                 ],
               ),
+              SizedBox(height: 10.h,),
+
+              Padding(
+                padding:  EdgeInsets.only(left: 35.w),
+                child: SizedBox(width: 240.w,
+                    child: Divider(thickness: 0.sp,color: Colors.grey,)),
+              ),
+
               SizedBox(height: 15.h,),
 
               Row(
                 children: [
 
                   CircleAvatar(radius: 20.r,backgroundColor: Colors.grey.shade900,
-                    child:Icon(Icons.perm_identity_rounded,color: Colors.white,) ,),
+                    child:Icon(Icons.phone_outlined,color: Colors.white,) ,),
                   SizedBox(width: 16.w,),
 
                   Column(crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                          "Name",
+                          "Phone",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16.sp,
@@ -206,7 +226,7 @@ class _My_profileState extends State<My_profile> {
                       ),
 
                       Text(
-                          "Brian Imanuel",
+                          "+62 821 560 641",
                           style: TextStyle(
                             color: Colors.grey,
                             fontSize: 14.sp,
@@ -216,25 +236,33 @@ class _My_profileState extends State<My_profile> {
                     ],
                   ),
 
-                  SizedBox(width: 156.w,),
+                  SizedBox(width: 136.w,),
 
                   Icon(Icons.arrow_forward_ios,color: Colors.white,size: 16.sp,)
 
                 ],
               ),
+              SizedBox(height: 10.h,),
+
+              Padding(
+                padding:  EdgeInsets.only(left: 35.w),
+                child: SizedBox(width: 240.w,
+                    child: Divider(thickness: 0.sp,color: Colors.grey,)),
+              ),
+
               SizedBox(height: 15.h,),
 
               Row(
                 children: [
 
                   CircleAvatar(radius: 20.r,backgroundColor: Colors.grey.shade900,
-                    child:Icon(Icons.perm_identity_rounded,color: Colors.white,) ,),
+                    child:Icon(Icons.location_on_outlined,color: Colors.white,) ,),
                   SizedBox(width: 16.w,),
 
                   Column(crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                          "Name",
+                          "Address",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16.sp,
@@ -243,7 +271,7 @@ class _My_profileState extends State<My_profile> {
                       ),
 
                       Text(
-                          "Brian Imanuel",
+                          "Long beach, California",
                           style: TextStyle(
                             color: Colors.grey,
                             fontSize: 14.sp,
@@ -253,12 +281,20 @@ class _My_profileState extends State<My_profile> {
                     ],
                   ),
 
-                  SizedBox(width: 156.w,),
+                  SizedBox(width: 100.w,),
 
                   Icon(Icons.arrow_forward_ios,color: Colors.white,size: 16.sp,)
 
                 ],
               ),
+              SizedBox(height: 10.h,),
+
+              Padding(
+                padding:  EdgeInsets.only(left: 35.w),
+                child: SizedBox(width: 240.w,
+                    child: Divider(thickness: 0.sp,color: Colors.grey,)),
+              ),
+
               SizedBox(height: 15.h,),
 
 
